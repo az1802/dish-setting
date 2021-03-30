@@ -1,11 +1,42 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
+import Home from "@views/Home"
+import About from "@views/About"
+import Login from "@views/Login"
+import DataAnalysis from "@views/DataAnalysis"
+import MerchantSetting from "@components/MerchantSetting"
+import DishSetting from "@components/DishSetting"        
+
 
 const routes = [
   {
-    path: '/',
+    path: "/",
+    redirect: "/home/dishSetting"
+  },
+  {
+    path: '/home',
     name: 'Home',
-    component: Home
+    component: Home,
+    children: [
+      {
+        name:"merchantSetting",
+        path: 'merchantSetting',
+        component:MerchantSetting,
+      }, {
+        name:"dishSetting",
+        path: 'dishSetting',
+        component:DishSetting,
+      }
+    ]
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/dataAnalysis',
+    name: "DataAnalysis",
+    component: DataAnalysis
   },
   {
     path: '/about',

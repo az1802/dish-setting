@@ -1,0 +1,3649 @@
+{
+  "data": {
+      "dinerUplimit": 16,
+      "dishes": [
+          {
+              "category": {
+                  "id": "367669493944008704",
+                  "name": "测试分类",
+                  "sort": 1
+              },
+              "dishList": [
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "370173530446764032",
+                                      "name": "窝蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173582377097216",
+                                      "name": "煎鸡蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173636055135232",
+                                      "name": "牛腩",
+                                      "reprice": 800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741346900534272",
+                                      "name": "黄豆",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741296610948096",
+                                      "name": "绿豆",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741258497281024",
+                                      "name": "红豆",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "296741233385979904",
+                              "groupName": "加料",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364064722955539456",
+                                      "name": "小份",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "441198132867439620",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/e5e6d17c0def41518137bbd35a3c3040.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "规格菜测试",
+                      "originPrice": 600,
+                      "price": 600,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-e5e6d17c0def41518137bbd35a3c3040.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "370173530446764032",
+                                      "name": "窝蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173582377097216",
+                                      "name": "煎鸡蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173636055135232",
+                                      "name": "牛腩",
+                                      "reprice": 800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741346900534272",
+                                      "name": "黄豆",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741296610948096",
+                                      "name": "绿豆",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741258497281024",
+                                      "name": "红豆",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "296741233385979904",
+                              "groupName": "加料",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364064722808738816",
+                                      "name": "大份",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "441198132867439616",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/e5e6d17c0def41518137bbd35a3c3040.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "规格菜测试",
+                      "originPrice": 1000,
+                      "price": 1000,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-e5e6d17c0def41518137bbd35a3c3040.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 2,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "439458418984504320",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/a7ab37e6a21241c0a1e9656c89ca0fe4.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "地瓜丸",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-a7ab37e6a21241c0a1e9656c89ca0fe4.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "370173530446764032",
+                                      "name": "窝蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173582377097216",
+                                      "name": "煎鸡蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173636055135232",
+                                      "name": "牛腩",
+                                      "reprice": 800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741346900534272",
+                                      "name": "黄豆",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741296610948096",
+                                      "name": "绿豆",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741258497281024",
+                                      "name": "红豆",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "296741233385979904",
+                              "groupName": "加料",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364064722880041984",
+                                      "name": "中份",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "441198132867439618",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/e5e6d17c0def41518137bbd35a3c3040.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "规格菜测试",
+                      "originPrice": 800,
+                      "price": 800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-e5e6d17c0def41518137bbd35a3c3040.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "377921933856507923",
+                                      "isMust": true,
+                                      "marketPrice": 0,
+                                      "name": "【加多宝 】",
+                                      "price": 0,
+                                      "saleTimeStr": "15:55-17:55",
+                                      "sort": 0,
+                                      "status": "NOT_IN_TIMI_LIMIT_SALE"
+                                  },
+                                  {
+                                      "id": "433252409884708864",
+                                      "isMust": true,
+                                      "marketPrice": 0,
+                                      "name": "10英寸咖喱牛肉比萨）",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 0,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "默认分组",
+                              "id": "433252188146067456",
+                              "orderMax": 2,
+                              "orderMin": 2,
+                              "sort": 1
+                          }
+                      ],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "433252188263507968",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "套餐点餐测试",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": "5e85fd9c1cc94c3482178c127940be33"
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "413685793857555456",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "配料测试",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 0,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "默认分组",
+                              "id": "413685894165288960",
+                              "orderMax": 1,
+                              "orderMin": 1,
+                              "sort": 0
+                          }
+                      ],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "413685894328866816",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "配料测试套餐",
+                      "originPrice": 200,
+                      "price": 200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": "4f6948ea36604704968bf93d29349a3a"
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "433252409884708864",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "10英寸咖喱牛肉比萨）",
+                      "originPrice": 10,
+                      "price": 10,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364073069847317504",
+                                      "name": "微辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "364072476652691456",
+                              "groupName": "辣度",
+                              "isMultiSelect": true
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "436251310818348032",
+                                      "name": "堂食",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "436251375595185152",
+                                      "name": "打包",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "290487663697429504",
+                              "groupName": "默认",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "436251408775014400",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/06b74958640f4f0397eb2f71e75f190e.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "猪蹄",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "GUQING",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-06b74958640f4f0397eb2f71e75f190e.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "421378141342220288",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "开台",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "377921541923229696",
+                                      "isMust": true,
+                                      "marketPrice": 0,
+                                      "name": "10英寸咖喱牛肉比萨（3星辣）",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 0,
+                                      "status": "GUQING"
+                                  },
+                                  {
+                                      "id": "377921933856507923",
+                                      "isMust": true,
+                                      "marketPrice": 0,
+                                      "name": "【加多宝 】",
+                                      "price": 0,
+                                      "saleTimeStr": "15:55-17:55",
+                                      "sort": 0,
+                                      "status": "NOT_IN_TIMI_LIMIT_SALE"
+                                  }
+                              ],
+                              "groupName": "必选",
+                              "id": "433251884100981760",
+                              "orderMax": 2,
+                              "orderMin": 2,
+                              "sort": 1
+                          }
+                      ],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "433251884281336832",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "套餐点单同步测试",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": "c298875469514a09a849dd85012814a2"
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "436251310818348032",
+                                      "name": "堂食",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "436251375595185152",
+                                      "name": "打包",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "290487663697429504",
+                              "groupName": "默认",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "437635550092599296",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "配料菜品测试2",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "299188282009454592",
+                              "marketPrice": 2,
+                              "name": "鸭血",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "358040538073535488",
+                              "marketPrice": 0,
+                              "name": "芒果",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "361231805817321472",
+                              "marketPrice": 10000,
+                              "name": "红薯",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364073318722134016",
+                              "marketPrice": 0,
+                              "name": "香菜",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "437635292063634432",
+                              "marketPrice": 10,
+                              "name": "配料测试手工拉茶",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "417274578755210240",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "配料菜品测试",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "293043186823412736",
+                              "marketPrice": 200,
+                              "name": "土豆",
+                              "status": "SOLD_OUT"
+                          },
+                          {
+                              "id": "293043251377949696",
+                              "marketPrice": 200,
+                              "name": "腐竹",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "297076380358760448",
+                              "marketPrice": 200,
+                              "name": "珍珠",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188216892893184",
+                              "marketPrice": 1,
+                              "name": "粉丝",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188282009454592",
+                              "marketPrice": 2,
+                              "name": "鸭血",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "358040538073535488",
+                              "marketPrice": 0,
+                              "name": "芒果",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "361231805817321472",
+                              "marketPrice": 10000,
+                              "name": "红薯",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364072321492803584",
+                              "marketPrice": 200,
+                              "name": "葡萄干",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364073268113662976",
+                              "marketPrice": 0,
+                              "name": "葱",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364073318722134016",
+                              "marketPrice": 0,
+                              "name": "香菜",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "413685793857555456",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "配料测试",
+                      "originPrice": 200,
+                      "price": 200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "293043186823412736",
+                              "marketPrice": 200,
+                              "name": "土豆",
+                              "status": "SOLD_OUT"
+                          },
+                          {
+                              "id": "293043251377949696",
+                              "marketPrice": 200,
+                              "name": "腐竹",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "297076380358760448",
+                              "marketPrice": 200,
+                              "name": "珍珠",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364072321492803584",
+                              "marketPrice": 200,
+                              "name": "葡萄干",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188282009454592",
+                              "marketPrice": 2,
+                              "name": "鸭血",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188216892893184",
+                              "marketPrice": 1,
+                              "name": "粉丝",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367669493944008704",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "398060260792750080",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1611126185153-91.jpeg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "临时菜",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 20000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1611126185153-91.jpeg",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "367346764258404362",
+                  "name": "小吃类",
+                  "sort": 1
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976259",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "一颗卤蛋",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976269",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "农家一口小酥肉",
+                      "originPrice": 1200,
+                      "price": 1200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976281",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "卤排骨",
+                      "originPrice": 1000,
+                      "price": 1000,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976264",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "葱油粑粑（个）",
+                      "originPrice": 400,
+                      "price": 400,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976272",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "香辣卤豆干",
+                      "originPrice": 800,
+                      "price": 800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976280",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "长沙臭豆腐",
+                      "originPrice": 990,
+                      "price": 990,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "GUQING",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976271",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "糖油粑粑",
+                      "originPrice": 800,
+                      "price": 800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976258",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "卤鸡爪",
+                      "originPrice": 1200,
+                      "price": 1200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "367346764258404362",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "449572700517430272",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "配料演示",
+                      "originPrice": 1100,
+                      "price": 1100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "293043186823412736",
+                              "marketPrice": 200,
+                              "name": "土豆",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "293043251377949696",
+                              "marketPrice": 200,
+                              "name": "腐竹",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "297076380358760448",
+                              "marketPrice": 200,
+                              "name": "珍珠",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188216892893184",
+                              "marketPrice": 1,
+                              "name": "粉丝",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188282009454592",
+                              "marketPrice": 2,
+                              "name": "鸭血",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "358040538073535488",
+                              "marketPrice": 0,
+                              "name": "芒果",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "361231805817321472",
+                              "marketPrice": 10000,
+                              "name": "红薯",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364072321492803584",
+                              "marketPrice": 200,
+                              "name": "葡萄干",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "364073268113662976",
+                              "marketPrice": 0,
+                              "name": "葱",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "377826585216854017",
+                  "name": "（满减）⑩寸比萨",
+                  "sort": 1
+              },
+              "dishList": [
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "450307232343456768",
+                                      "name": "属性测试1",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "450307297954238464",
+                                      "name": "属性测试二",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "450307189188203520",
+                              "groupName": "属性测试",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "450311480614595584",
+                                      "name": "A0",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "450311445982227456",
+                              "groupName": "AAA",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "377826585216854017",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "450306180113785856",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "测试菜品属性模板",
+                      "originPrice": 1000,
+                      "price": 1000,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "364066688452395008",
+                  "name": "炒菜",
+                  "sort": 2
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "430377052720146432",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "测试0元菜",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "296741296610948096",
+                                      "name": "绿豆",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741346900534272",
+                                      "name": "黄豆",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741258497281024",
+                                      "name": "红豆",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173582377097216",
+                                      "name": "煎鸡蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173636055135232",
+                                      "name": "牛腩",
+                                      "reprice": 800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "383248658853431296",
+                                      "name": "半份（3个）",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173530446764032",
+                                      "name": "窝蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "361232434501522432",
+                                      "name": "加料",
+                                      "reprice": 10000,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "296741233385979904",
+                              "groupName": "加料",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 3,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "364073573155251200",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/A06C5442701F46DBBBB4FAD76CB1A1E1.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "毛血旺★",
+                      "originPrice": 4500,
+                      "price": 4500,
+                      "saleTimeStr": "",
+                      "sort": 999,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "293043186823412736",
+                              "marketPrice": 200,
+                              "name": "土豆",
+                              "status": "SOLD_OUT"
+                          },
+                          {
+                              "id": "299188216892893184",
+                              "marketPrice": 1,
+                              "name": "粉丝",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "299188282009454592",
+                              "marketPrice": 2,
+                              "name": "鸭血",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-A06C5442701F46DBBBB4FAD76CB1A1E1.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "400648392718682112",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "88-N折",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 1000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "401010078214522880",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "茶位费",
+                      "originPrice": 500,
+                      "price": 500,
+                      "saleTimeStr": "",
+                      "sort": 2000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "364073660140994560",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/CDE5ED35898546AFB339281B9E7D2141.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "辣子鸡丁",
+                      "originPrice": 2500,
+                      "price": 2500,
+                      "saleTimeStr": "",
+                      "sort": 3000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-CDE5ED35898546AFB339281B9E7D2141.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "364073739941822464",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/DCD11A28AE7C45C0AD8611703683DFC1.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "回锅肉",
+                      "originPrice": 2100,
+                      "price": 2100,
+                      "saleTimeStr": "",
+                      "sort": 4000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-DCD11A28AE7C45C0AD8611703683DFC1.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386828202873195520",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "雪碧",
+                      "originPrice": 450,
+                      "price": 450,
+                      "saleTimeStr": "",
+                      "sort": 7000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386828461093822464",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "青菜肉丝汤",
+                      "originPrice": 1900,
+                      "price": 1900,
+                      "saleTimeStr": "",
+                      "sort": 8000,
+                      "status": "GUQING",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386828562721808384",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "莲藕排骨汤",
+                      "originPrice": 2000,
+                      "price": 2000,
+                      "saleTimeStr": "",
+                      "sort": 9000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "364073573155251200",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "毛血旺★",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 999,
+                                      "status": "NORMAL"
+                                  },
+                                  {
+                                      "id": "364073660140994560",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "辣子鸡丁",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 3000,
+                                      "status": "NORMAL"
+                                  },
+                                  {
+                                      "id": "364073739941822464",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "回锅肉",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 4000,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "主菜",
+                              "id": "386829194323032064",
+                              "orderMax": 2,
+                              "orderMin": 1,
+                              "sort": 0
+                          },
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "386828202873195520",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "雪碧",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 7000,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "饮料",
+                              "id": "386829194344003584",
+                              "orderMax": 1,
+                              "orderMin": 1,
+                              "sort": 1
+                          },
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "386828461093822464",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "青菜肉丝汤",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 8000,
+                                      "status": "GUQING"
+                                  },
+                                  {
+                                      "id": "386828562721808384",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "莲藕排骨汤",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 9000,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "汤",
+                              "id": "386829194369169408",
+                              "orderMax": 1,
+                              "orderMin": 0,
+                              "sort": 2
+                          }
+                      ],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386829194478221312",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "0元套餐",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 10000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": "f02bf82d06744628bff58527d14d9418"
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386829357102014464",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "小吃 土豆",
+                      "originPrice": 500,
+                      "price": 500,
+                      "saleTimeStr": "",
+                      "sort": 11000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386829414362652672",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "小吃 红薯",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 12000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386829671248743424",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "小吃 河粉",
+                      "originPrice": 1000,
+                      "price": 1000,
+                      "saleTimeStr": "",
+                      "sort": 13000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "364073573155251200",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "毛血旺★",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 999,
+                                      "status": "NORMAL"
+                                  },
+                                  {
+                                      "id": "364073660140994560",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "辣子鸡丁",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 3000,
+                                      "status": "NORMAL"
+                                  },
+                                  {
+                                      "id": "364073739941822464",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "回锅肉",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 4000,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "主菜",
+                              "id": "386830089265281024",
+                              "orderMax": 3,
+                              "orderMin": 2,
+                              "sort": 0
+                          },
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "386828461093822464",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "青菜肉丝汤",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 8000,
+                                      "status": "GUQING"
+                                  },
+                                  {
+                                      "id": "386828562721808384",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "莲藕排骨汤",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 9000,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "汤",
+                              "id": "386830089286252544",
+                              "orderMax": 1,
+                              "orderMin": 1,
+                              "sort": 1
+                          },
+                          {
+                              "childDishes": [
+                                  {
+                                      "id": "386829357102014464",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "小吃 土豆",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 11000,
+                                      "status": "NORMAL"
+                                  },
+                                  {
+                                      "id": "386829414362652672",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "小吃 红薯",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 12000,
+                                      "status": "NORMAL"
+                                  },
+                                  {
+                                      "id": "386829671248743424",
+                                      "isMust": false,
+                                      "marketPrice": 0,
+                                      "name": "小吃 河粉",
+                                      "price": 0,
+                                      "saleTimeStr": "",
+                                      "sort": 13000,
+                                      "status": "NORMAL"
+                                  }
+                              ],
+                              "groupName": "小吃",
+                              "id": "386830089307224064",
+                              "orderMax": 1,
+                              "orderMin": 1,
+                              "sort": 2
+                          }
+                      ],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "386830089424664576",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "158套餐",
+                      "originPrice": 15800,
+                      "price": 15800,
+                      "saleTimeStr": "",
+                      "sort": 14000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": "6ad2f1ef57f1452ca1f5163a98326588"
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "393035832406887424",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "扫码直接支付开台菜",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 15000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364064722955539456",
+                                      "name": "小份",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "395153889417759748",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "红烧牛肉面",
+                      "originPrice": 1500,
+                      "price": 1500,
+                      "saleTimeStr": "",
+                      "sort": 16000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "361232434501522432",
+                                      "name": "加料",
+                                      "reprice": 10000,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173530446764032",
+                                      "name": "窝蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "296741233385979904",
+                              "groupName": "加料",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364064722880041984",
+                                      "name": "中份",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "395153889417759746",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "红烧牛肉面",
+                      "originPrice": 2000,
+                      "price": 2000,
+                      "saleTimeStr": "",
+                      "sort": 17000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "293043186823412736",
+                              "marketPrice": 200,
+                              "name": "土豆",
+                              "status": "SOLD_OUT"
+                          },
+                          {
+                              "id": "293043251377949696",
+                              "marketPrice": 200,
+                              "name": "腐竹",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "297076380358760448",
+                              "marketPrice": 200,
+                              "name": "珍珠",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364064722808738816",
+                                      "name": "大份",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "364066688452395008",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": false,
+                      "id": "395153889417759744",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "红烧牛肉面",
+                      "originPrice": 2500,
+                      "price": 2500,
+                      "saleTimeStr": "",
+                      "sort": 18000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448503912123614209",
+                  "name": "粉类煨码",
+                  "sort": 2
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976267",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "鲜木耳肉丝粉",
+                      "originPrice": 2200,
+                      "price": 2200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976256",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "高山有机牛腩粉",
+                      "originPrice": 3200,
+                      "price": 3200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976278",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "干豆角红烧肉粉",
+                      "originPrice": 2800,
+                      "price": 2800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976266",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "老牌炖三鲜粉",
+                      "originPrice": 2200,
+                      "price": 2200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976276",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "慢炖香辣牛三鲜粉",
+                      "originPrice": 2800,
+                      "price": 2800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976270",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "加粉",
+                      "originPrice": 200,
+                      "price": 200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976263",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "香辣肥肠粉",
+                      "originPrice": 2600,
+                      "price": 2600,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614209",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976265",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "红烧排骨粉",
+                      "originPrice": 2800,
+                      "price": 2800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "377826585216854021",
+                  "name": "饮品系列",
+                  "sort": 2
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "377826585216854021",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "377921933856507923",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1594275896139-242.JPG",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "【加多宝 】",
+                      "originPrice": 400,
+                      "price": 400,
+                      "saleTimeStr": "15:55-17:55",
+                      "sort": 0,
+                      "status": "NOT_IN_TIMI_LIMIT_SALE",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1594275896139-242.JPG",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448503912123614208",
+                  "name": "粉类炒码",
+                  "sort": 3
+              },
+              "dishList": [
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "448508018889728000",
+                                      "name": "宽粉",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "448508091862810624",
+                                      "name": "圆粉",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "448507872089079808",
+                              "groupName": "宽粉/面",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 3,
+                      "categoryId": "448503912123614208",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976275",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1611127168726-34",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "小炒黄牛肉粉",
+                      "originPrice": 3000,
+                      "price": 3000,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [
+                          {
+                              "id": "448508380551220224",
+                              "marketPrice": 800,
+                              "name": "香辣肥肠",
+                              "status": "NORMAL"
+                          },
+                          {
+                              "id": "448508496348323840",
+                              "marketPrice": 600,
+                              "name": "香辣牛三鲜",
+                              "status": "NORMAL"
+                          }
+                      ],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1611127168726-34",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 2,
+                      "categoryId": "448503912123614208",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976262",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1611127168726-32",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "辣椒炒肉粉",
+                      "originPrice": 2600,
+                      "price": 2600,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1611127168726-32",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "448503912123614208",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976273",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1611127168726-35",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "猪油拌粉",
+                      "originPrice": 1800,
+                      "price": 1800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1611127168726-35",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614208",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976260",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1611127168726-33",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "酸辣鸡杂粉",
+                      "originPrice": 2200,
+                      "price": 2200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1611127168726-33",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "377826585216854016",
+                  "name": "（折扣）⑩寸比萨",
+                  "sort": 4
+              },
+              "dishList": [
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "361232434501522432",
+                                      "name": "加料",
+                                      "reprice": 10000,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173530446764032",
+                                      "name": "窝蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173582377097216",
+                                      "name": "煎鸡蛋",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "370173636055135232",
+                                      "name": "牛腩",
+                                      "reprice": 800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741346900534272",
+                                      "name": "黄豆",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741296610948096",
+                                      "name": "绿豆",
+                                      "reprice": 200,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "296741258497281024",
+                                      "name": "红豆",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "383248658853431296",
+                                      "name": "半份（3个）",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "383248872903839744",
+                                      "name": "整份（6个）",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "296741233385979904",
+                              "groupName": "加料",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "367351518997246976",
+                                      "name": "苹果汁",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "367351604263427072",
+                                      "name": "橙汁",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "367351438370793472",
+                              "groupName": "卢家妈妈套餐饮品",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "304286163689780224",
+                                      "name": "换乌冬",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "304286236288435200",
+                                      "name": "换公仔面",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "304286113815623680",
+                              "groupName": "换粉",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364071124757210112",
+                                      "name": "大份",
+                                      "reprice": 500,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "364071202230092800",
+                                      "name": "中份",
+                                      "reprice": 300,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "364071275106078720",
+                                      "name": "小份",
+                                      "reprice": 100,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "383248981626095616",
+                                      "name": "半份3个",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "383249022855494656",
+                                      "name": "整份6个",
+                                      "reprice": 800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "293338828837833728",
+                              "groupName": "规格",
+                              "isMultiSelect": false
+                          },
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364073069847317504",
+                                      "name": "微辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "364073106721026048",
+                                      "name": "中辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "364073149631042560",
+                                      "name": "特辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "364072476652691456",
+                              "groupName": "辣度",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "377826585216854016",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "377921541923229696",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/rc-upload-1594275896139-478.JPG",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "10英寸咖喱牛肉比萨（3星辣）",
+                      "originPrice": 3900,
+                      "price": 3900,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "GUQING",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-rc-upload-1594275896139-478.JPG",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448503912123614210",
+                  "name": "套餐",
+                  "sort": 4
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614210",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976279",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "辣椒炒肉套餐",
+                      "originPrice": 3300,
+                      "price": 3300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614210",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976261",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "香辣牛三鲜套餐",
+                      "originPrice": 3500,
+                      "price": 3500,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448503912123614211",
+                  "name": "饮料",
+                  "sort": 5
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614211",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976277",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "维他奶原味",
+                      "originPrice": 350,
+                      "price": 350,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614211",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976268",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "鲜榨玉米汁热",
+                      "originPrice": 800,
+                      "price": 800,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614211",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976257",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "百事可乐",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448503912123614211",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448503971226976274",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "王老吉",
+                      "originPrice": 500,
+                      "price": 500,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448502596341969921",
+                  "name": "健康饮品",
+                  "sort": 6
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448502596341969921",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448502658782894082",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "牛油果奇亚籽奶昔",
+                      "originPrice": 3000,
+                      "price": 3000,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448502596341969920",
+                  "name": "开胃小尝",
+                  "sort": 7
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448502596341969920",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448502658782894080",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "德式香肠串",
+                      "originPrice": 2200,
+                      "price": 2200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "448502596341969920",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448502658782894081",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "玉米薯片佐牛油果酱",
+                      "originPrice": 3500,
+                      "price": 3500,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "365496665169894409",
+                  "name": "其它类",
+                  "sort": 8
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "446684800552727552",
+                      "image": "",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "土豆",
+                      "originPrice": 200,
+                      "price": 200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "GUQING",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "365502971198246946",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/200C2264E5FA4025A2B225326E6424D2.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "茶位酱料费",
+                      "originPrice": 500,
+                      "price": 500,
+                      "saleTimeStr": "",
+                      "sort": 1000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-200C2264E5FA4025A2B225326E6424D2.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "365502971198246992",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/5643134BA98242DBAC29367E3A118C08.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "茶位（免）",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 4000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-5643134BA98242DBAC29367E3A118C08.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "365502971198246978",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/640B340FA65E4F13AB2DC0DE492F9E5E.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "打包袋",
+                      "originPrice": 10,
+                      "price": 10,
+                      "saleTimeStr": "",
+                      "sort": 4500,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-640B340FA65E4F13AB2DC0DE492F9E5E.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "365502971198247052",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/7D750AFA5A184D11A24424EBBF02BCF6.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "打包盒",
+                      "originPrice": 200,
+                      "price": 200,
+                      "saleTimeStr": "",
+                      "sort": 5000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-7D750AFA5A184D11A24424EBBF02BCF6.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "365502971198247057",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/64BF7F0EFDB949F39642E0E682DF7F04.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 5,
+                      "name": "牛油2",
+                      "originPrice": 500,
+                      "price": 500,
+                      "saleTimeStr": "",
+                      "sort": 6000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-64BF7F0EFDB949F39642E0E682DF7F04.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 0,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "365502971198246977",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/75F457AF15614757AA220C7740871DA7.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "1元换购雨伞",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 6500,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-75F457AF15614757AA220C7740871DA7.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "365496665169894409",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "366980820114428928",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/3ECDCAA9E5B04A1F93C4555B88BA3CC9.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "配送费",
+                      "originPrice": 500,
+                      "price": 500,
+                      "saleTimeStr": "",
+                      "sort": 7000,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-3ECDCAA9E5B04A1F93C4555B88BA3CC9.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "444154339477895168",
+                  "name": "测试菜品分类",
+                  "sort": 1000
+              },
+              "dishList": [
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "364073069847317504",
+                                      "name": "微辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "364073106721026048",
+                                      "name": "中辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "364073149631042560",
+                                      "name": "特辣",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "364072476652691456",
+                              "groupName": "辣度",
+                              "isMultiSelect": true
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "446341746591491072",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/42fad432c45d4194a838169406dac760.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 3,
+                      "name": "烤豆皮",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-42fad432c45d4194a838169406dac760.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "446314970137798656",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/ed5a79e3ee8542ee97407793497fc6ed.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 2,
+                      "name": "铁签子羊肉串",
+                      "originPrice": 100,
+                      "price": 100,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-ed5a79e3ee8542ee97407793497fc6ed.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "446316253692690432",
+                                      "name": "5串",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "446317281723590656",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/2db4ab28f8954721a6339103ee00a1c1.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 5,
+                      "name": "羊肉串",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-2db4ab28f8954721a6339103ee00a1c1.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "446316287997872128",
+                                      "name": "10串",
+                                      "reprice": 0,
+                                      "status": "NORMAL",
+                                      "type": "SPECIFICATION"
+                                  }
+                              ],
+                              "groupId": "364064722733241344",
+                              "groupName": "份量",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "446317281723590658",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/2db4ab28f8954721a6339103ee00a1c1.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 10,
+                      "name": "羊肉串",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-2db4ab28f8954721a6339103ee00a1c1.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "452880228655567872",
+                                      "name": "宾得宝",
+                                      "reprice": 28800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "452880305906606080",
+                                      "name": "人头马",
+                                      "reprice": 18800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "452880543941351424",
+                                      "name": "国产橙酒",
+                                      "reprice": 8800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "452879019081555968",
+                              "groupName": "品牌",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "452880583325867008",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/745f4e6b89c2460c9b6140d973eb4f00.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "橙酒（单杯）",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-745f4e6b89c2460c9b6140d973eb4f00.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [
+                          {
+                              "attrs": [
+                                  {
+                                      "id": "452879429766436864",
+                                      "name": "张裕",
+                                      "reprice": 6800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "452879468295613440",
+                                      "name": "长城",
+                                      "reprice": 7800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "452879519122189312",
+                                      "name": "王朝",
+                                      "reprice": 10800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "452879580652158976",
+                                      "name": "威龙",
+                                      "reprice": 12800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  },
+                                  {
+                                      "id": "452879636239739904",
+                                      "name": "香格里拉",
+                                      "reprice": 16800,
+                                      "status": "NORMAL",
+                                      "type": "TASTE"
+                                  }
+                              ],
+                              "groupId": "452879019081555968",
+                              "groupName": "品牌",
+                              "isMultiSelect": false
+                          }
+                      ],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "452786084447974400",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/44c91da3d0834ebaab0e49bbf200d049.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "葡萄酒（单杯）",
+                      "originPrice": 0,
+                      "price": 0,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-44c91da3d0834ebaab0e49bbf200d049.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  },
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "444154339477895168",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "446357320872715264",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/00832f8e02ce416d9fdb24a569ad6d14.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 10,
+                      "name": "烤鸡胗",
+                      "originPrice": 300,
+                      "price": 300,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-00832f8e02ce416d9fdb24a569ad6d14.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          },
+          {
+              "category": {
+                  "id": "448501215741371392",
+                  "name": "饭类",
+                  "sort": 1000
+              },
+              "dishList": [
+                  {
+                      "attrList": [],
+                      "availableCopies": 0,
+                      "boxQty": 1,
+                      "categoryId": "448501215741371392",
+                      "childDishGroups": [],
+                      "discountPrice": 0,
+                      "dishType": "SINGLE",
+                      "hasDiscount": true,
+                      "id": "448501427176236032",
+                      "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/A7017356AFDC462989AF0C07E7104E8B.jpg",
+                      "isIFeedU": false,
+                      "isVerificationDish": false,
+                      "marketPrice": 0,
+                      "minOrderNum": 1,
+                      "name": "牛肉饭",
+                      "originPrice": 1200,
+                      "price": 1200,
+                      "saleTimeStr": "",
+                      "sort": 0,
+                      "status": "NORMAL",
+                      "supplyCondimentUplimit": 0,
+                      "supplyCondiments": [],
+                      "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-A7017356AFDC462989AF0C07E7104E8B.jpg",
+                      "type": "MENU",
+                      "uuid": ""
+                  }
+              ]
+          }
+      ],
+      "enableEatIn": true,
+      "enableGroupDining": true,
+      "enableRecommendDish": false,
+      "enableTakeAway": true,
+      "groupDiningEventId": "",
+      "minimalBillFee": 1,
+      "packageFeePerProduct": 200,
+      "packagingBoxConfig": {
+          "dish": {
+              "attrList": [],
+              "availableCopies": 0,
+              "boxQty": 0,
+              "categoryId": "365496665169894409",
+              "childDishGroups": [],
+              "discountPrice": 0,
+              "dishType": "SINGLE",
+              "hasDiscount": true,
+              "id": "365502971198247052",
+              "image": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/7D750AFA5A184D11A24424EBBF02BCF6.jpg",
+              "isIFeedU": false,
+              "isVerificationDish": false,
+              "marketPrice": 0,
+              "minOrderNum": 1,
+              "name": "打包盒",
+              "originPrice": 200,
+              "price": 200,
+              "saleTimeStr": "",
+              "sort": 5000,
+              "status": "NORMAL",
+              "supplyCondimentUplimit": 0,
+              "supplyCondiments": [],
+              "thumbImage": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/thumb-7D750AFA5A184D11A24424EBBF02BCF6.jpg",
+              "type": "MENU",
+              "uuid": ""
+          },
+          "orderBillFee": [
+              1,
+              2000
+          ]
+      },
+      "peopleCount": 0,
+      "phone": "",
+      "redPacketDiscount": {
+          "maxRedPacketPercentage": 0,
+          "maxValueCap": 0,
+          "minRedPacketPercentage": 0
+      },
+      "reminderCategories": {},
+      "requiredOrderItems": [],
+      "shippingFee": 0,
+      "splashImageUrl": "https://shilai-images.oss-cn-shenzhen.aliyuncs.com/ab72e63a-e6f1-4940-a9a6-de31f9af45f6_tmp_8ea6949facc84568da670858f6c4dd83.jpg",
+      "tableInfo": {
+          "tableId": "366977101033217024",
+          "tableName": "自提"
+      }
+  },
+  "errcode": 0,
+  "errmsg": "success"
+}
