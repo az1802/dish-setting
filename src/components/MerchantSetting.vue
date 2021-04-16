@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-29 15:56:13
- * @LastEditTime: 2021-03-30 15:18:42
+ * @LastEditTime: 2021-03-30 19:18:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /shilai-dishes-setting/src/components/MerchantSetting.vue
@@ -15,6 +15,7 @@
 </template>
 <script>
 import CustomForm from "@components/CustomForm"
+import moment from 'moment';
 import {reactive} from "vue"
 
 let formConfigDefault={
@@ -38,6 +39,15 @@ let formItemArrDefault = [
 
     }
   },{
+    label:"textarea test",
+    name:"textarea",//
+    key:"textarea",
+    type:"textarea",
+    options:[],
+    formItemProps:{
+
+    }
+  },{
     label:"switch test",
     name:"enableShilaiMemberCardPay",
     key:"enableShilaiMemberCardPay",
@@ -46,12 +56,91 @@ let formItemArrDefault = [
     formItemProps:{
 
     }
+  },{
+    label:"time test",
+    name:"time",
+    key:"time",
+    type:"time",
+    options:[],
+    formItemProps:{
+
+    }
+  },{
+    label:"uploadImg test",
+    name:"uploadTest",
+    key:"uploadTest",
+    type:"imgUpload",
+    options:[],
+    formItemProps:{
+      
+    }
+  },{
+    label:"radio test",
+    name:"radioTest",
+    key:"radioTest",
+    type:"radio",
+    options:[{
+      value:"1",
+      text:"Online"
+    },{
+      value:"2",
+      text:"offLine"
+    },{
+      value:"3",
+      text:"outLine"
+    }],
+    formItemProps:{
+
+    }
+  },{
+    label:"checkbox test",
+    name:"type",
+    key:"type",
+    type:"checkbox",
+    options:[{
+      value:"1",
+      text:"Online"
+    },{
+      value:"2",
+      text:"offLine"
+    },{
+      value:"3",
+      text:"outLine"
+    }],
+    formItemProps:{
+
+    }
+  },
+  {
+    label:"select test",
+    name:"merchantType",
+    key:"merchantType",
+    type:"select",
+    options:[{
+      value:"fastFood",
+      text:"快餐"
+    },{
+      value:"b",
+      text:"正餐"
+    },{
+      value:"c",
+      text:"小吃"
+    }],
+    formItemProps:{
+
+    }
   }
 ]
 
 let formStateDefault = { //表单的初始默认值,以及远程接口获取的初始值
-  "enablePaymentReminder": false,
+  "enablePaymentReminder": "inpu test",
+  "textarea":"textarea test",
   "enableShilaiMemberCardPay": true,
+  "time":[moment("09:00","HH:mm"),moment("14:00","HH:mm")],
+  "uploadTest":[],
+  "radioTest":"2",
+  "type" :[ "1"],
+  "merchantType":"b"
 }
 export default {
   components:{

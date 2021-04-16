@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-23 10:20:20
- * @LastEditTime: 2021-03-03 11:40:55
+ * @LastEditTime: 2021-04-16 14:34:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /shilai-dishes-setting/src/components/DishTable.vue
@@ -86,6 +86,28 @@
       </div>
     </a-modal>
 
+    <!--上传成功且可以预览图片-->
+    <a-modal v-model:visible="uploadDialogVisible" title="上传图片 " @ok="handleImgUpLoadDialogOk" dialogClass="img-match-dialog-wrapper" @cancel="handleImgUploadCancel">
+      <a-upload-dragger
+        v-model:fileList="fileList"
+        name="file"
+        list-type="picture"
+        :multiple="false"
+        action="http://shilai-h5.zhiyi.cn/staff-assist/misc/image/upload"
+        @change="handleChange"
+      >
+        <p class="ant-upload-drag-icon">
+          <inbox-outlined></inbox-outlined>
+        </p>
+        <p class="ant-upload-text">点击或者拖动到此区域上传</p>
+        <p class="ant-upload-hint">
+          Support for a single upload. Strictly prohibit from uploading company data or other
+          band files
+        </p>
+      </a-upload-dragger>
+    </a-modal>
+
+
   </div>
 </template>
 <script>
@@ -157,10 +179,13 @@ export default {
       editableData:{},
       selectMatchImageUrl:"",
       imgMatchDialogVisible:false,
+      uploadDialogVisible:false,
       matchImgList:[],
       selectDish:{},
       searchText:"",
       searchedColumn:"",
+      fileList:[],
+
     }
   },
   created(){
@@ -231,7 +256,10 @@ export default {
       this.matchImgList = await this.getMatchingImgs(this.selectDish.name) || [];
     },
     async uploadDishImage(record){
-     message.warning('功能开发中敬请期待');
+      this.fileList = [];
+      this.uploadDialogVisible = true;
+      this.selectDish = JSON.parse(JSON.stringify(record));
+      // message.warning('功能开发中敬请期待');
     },
     async handleImgMatchDialogOk(){
       if(!this.selectMatchImageUrl) return ;
@@ -251,9 +279,49 @@ export default {
     async handleImgMatchDialogCancel(){
       this.selectMatchImageUrl=""
     },
+    async handleImgUpLoadDialogOk(){ //上传图片ok
+      // TODO 自定义上传图片
+      let fileList = this.fileList;
+      console.log("fileList----",fileList)
+      let fileItem = fileList&&fileList[0];
+      if(!fileItem || !fileItem.response || (fileItem.response.errcode!=0) || !fileItem.response.data.imageUrl){
+        return 
+      }
+      let imageUrl = fileItem.response.data.imageUrl;
+      this.selectDish&&(this.selectDish.shilaiImageUrl = imageUrl);
+
+      let matchImg = {
+        dishId:this.selectDish.id,
+        shilaiImageUrl:this.selectDish.shilaiImageUrl
+      };
+      let saveRes =  await API.saveFoodImages([matchImg],this.merchantId);
+      console.log("单个图片保存结果---",saveRes)
+
+      if(saveRes){
+        message.success(`菜品图片更新成功`);
+        this.changeDishItem(matchImg);
+      }
+
+      this.uploadDialogVisible = false;
+    },
+    async handleImgUploadCancel(){
+      this.uploadDialogVisible = false;
+    },
+    handleChange(info){//处理图片拖拽上传
+      const status = info.file.status;
+      if (status !== '正在上传中') {
+        console.log(info.file, info.fileList);
+      }
+      if (status === 'done') {
+        message.success(`${info.file.name} 文件上传成功.`);
+      } else if (status === 'error') {
+        message.error(`${info.file.name} 文件上传失败.`);
+      }
+    },
     selectMatchImg(dishItem){
       this.selectMatchImageUrl = this.selectMatchImageUrl == dishItem.imageUrl ? "" : dishItem.imageUrl 
     },
+
     handleSearch(selectedKeys, confirm, dataIndex){
       confirm();
       console.log(selectedKeys[0]);

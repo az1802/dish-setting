@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-02 10:16:00
- * @LastEditTime: 2021-03-23 17:20:16
+ * @LastEditTime: 2021-04-16 10:44:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /crawling/Users/zhiyi/Desktop/work/shilai-dishes-setting/src/components/dishesMock.vue
@@ -110,12 +110,14 @@ export default {
       // let noImgDishes = [];
       let matchImgs = []
       // let dishes = this.dishes;
+      console.log(dishes)
 
       for(let i = 0 ; i < dishes.length ; i++){
         let dishList = dishes[i].dishList || [];  
         for(let j = 0 ; j < dishList.length ; j++){
           let dishItem = dishList[j];
           if(!dishItem.imageUrl&&!dishItem.shilaiImageUrl&&dishItem.name || dishItem.shilaiImageUrl === DEFAULT_DISH_IMAGEURL){
+            console.log("name-----",dishItem.name)
             let matchRes = await API.matchFoodImages(dishItem.name);
             let imageUrl = matchRes&&matchRes.length!=0&&matchRes[0].imageUrl || DEFAULT_DISH_IMAGEURL;
 
@@ -130,6 +132,7 @@ export default {
           }
         }
       }
+      console.log(matchImgs)
       this.isMatchingImgs = false
       this.matchImgs = matchImgs
       this.initDishes(dishes)
@@ -179,6 +182,12 @@ export default {
       this.matchImgList = matchRes
     },
     async batchSaveMatchImgs(){
+
+      for(let i = 0 ; i < this.matchImgs.length ; i++ ){
+        let temp = this.matchImgs[i];
+        console.log(temp.dishId,"--------",temp.shilaiImageUrl)
+      }
+
       console.log("保存的菜品---",this.matchImgs)
 
       // let matchImgs = [];
@@ -186,7 +195,9 @@ export default {
       //   dishId:this.matchImgs[0].id,
       //   shilaiImageUrl:this.matchImgs[0].shilaiImageUrl
       // })
-
+      if(!this.matchImgs){
+        return;
+      }
       let matchImgs = JSON.parse(JSON.stringify(this.matchImgs));
       matchImgs = matchImgs.map(imgItem=>{
         return {
@@ -195,8 +206,10 @@ export default {
         }
       })
 
-      let saveRes =  await API.saveFoodImages(matchImgs,this.merchantId);
-      if(saveRes){
+      let saveRes1 =  await API.saveFoodImages(matchImgs.slice(0,10),this.merchantId);
+      let saveRes2 =  await API.saveFoodImages(matchImgs.slice(10),this.merchantId);
+
+      if(saveRes1&&saveRes2){
         message.success("匹配菜品图保存成功");
       }
       let dishes = await API.getMerchantDishes(this.merchantId);

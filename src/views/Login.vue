@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-03-18 11:10:31
- * @LastEditTime: 2021-03-24 10:46:13
+ * @LastEditTime: 2021-04-16 14:18:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /shilai-dishes-setting/src/pages/login.vue
@@ -55,8 +55,8 @@ export default {
       formState:{
         // username:"",
         // passwd:"",
-        username:"shilai",
-        passwd:"Ashilai.1234"
+        username:"",
+        passwd:""
       }
     }
   },
@@ -73,7 +73,7 @@ export default {
  
       let res = await  API.login(formState);
       if(res){ //登录成功跳转到首页
-         this.$router.push({name:"Home"})
+         this.$router.push({name:"dishSetting"})
       }else{//账号密码错误
         message.info('账号密码错误,请重新登录');
       }
